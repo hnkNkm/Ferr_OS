@@ -20,4 +20,5 @@ exec qemu-system-x86_64 \
   -net none \
   -global driver=cfi.pflash01,property=secure,value=on \
   -device isa-debug-exit,iobase=0xf4,iosize=0x01 \
+  -serial mon:stdio
   "$@"
