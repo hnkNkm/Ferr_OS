@@ -1,0 +1,19 @@
+# Rust / Cargo
+/target
+**/*.rs.bk
+
+# QEMU / build outputs
+mnt/
+*.iso
+*.bin
+
+# Docs (personal notes only)
+docs/
+
+# IDE / Editor
+.idea/
+.vscode/
+.DS_Store
+
+# Allow docs to be committed (no ignore)
+third_party/ 
